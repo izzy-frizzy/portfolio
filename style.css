@@ -1,0 +1,159 @@
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    border: 35px  rgb(0, 102, 255) double;
+    background-color: rgba(245, 245, 245, 0.041);
+}
+
+.main-image{
+    position: relative;
+}
+
+.name{
+    position:absolute;
+    top:50%;
+    left:50%;
+    color:aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.main-image img{
+    width: 100%;
+    height: 300px;
+}
+
+.navbar{
+    background-color:darkcyan;
+    overflow: hidden;
+}
+
+.navbar a{
+    color:ivory;
+    font-size: 17px;
+    padding: 14px 16px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: black;
+    background-color: white;
+}
+
+.introduction{
+    position: relative;
+    text-align: center;
+}
+
+.introduction p{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.introduction img{
+    border-radius: 50%;
+    height: 195px;
+    width: 195px;
+    margin: 0px 50px;
+}
+
+#filler{
+    height: 250px;
+    margin: 0px 100px;
+
+}
+
+.skills{
+    text-align: center;
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.skills ul{
+    list-style-type: circle;
+    display: inline-block;
+    text-align: left;
+}
+
+.blogs{
+    text-align: center;
+    width: 50%;
+    float:right;
+}
+
+.blogs ul{
+    list-style-type:square;
+    display: inline-block;
+    text-align: left;
+}
+
+.projects h1{
+  text-align: center;
+}
+
+.project-element{
+    border: 1px solid lightgray;
+    float: left;
+    width: 15.33%;
+    padding: 0px;
+    margin: 20px;
+    margin-left:250px;
+}
+
+.project-element:hover{
+    border: 1px solid  black;
+    background-color: black;
+    color:white;
+}
+
+.project-element img{
+    width:100%;
+    height: auto;
+}
+
+.discription{
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.contacts{
+    text-align: center;
+}
+
+.socials{
+   /* border: 1px solid lightgray;*/
+    padding: 40px 0px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.socials a{
+    background-color: cornflowerblue;
+    color:white;
+    border: 1px solid cornflowerblue;
+    border-radius: 3px;
+    padding: 14px;
+    margin: 10px;
+    text-decoration:none;
+}
+
+.socials a:hover{
+    background-color: white;
+    color:cornflowerblue;
+    border: 1px solid cornflowerblue;
+}
